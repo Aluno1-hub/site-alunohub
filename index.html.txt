@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlunoHub - Notícias</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>AlunoHub</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Política</a></li>
+                <li><a href="#">Economia</a></li>
+                <li><a href="#">Tecnologia</a></li>
+                <li><a href="#">Esportes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="noticia-destaque">
+            <h2>Notícia em Destaque</h2>
+            <article>
+                <h3>Título da Notícia em Destaque</h3>
+                <p>Resumo da notícia em destaque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis vulputate lorem.</p>
+            </article>
+        </section>
+
+        <section class="outras-noticias">
+            <h2>Outras Notícias</h2>
+            <article>
+                <h3>Título da Notícia 1</h3>
+                <p>Resumo da notícia 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis vulputate lorem.</p>
+            </article>
+            <article>
+                <h3>Título da Notícia 2</h3>
+                <p>Resumo da notícia 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis vulputate lorem.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AlunoHub. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
